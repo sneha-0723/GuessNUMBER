@@ -1,0 +1,110 @@
+body {
+  background-color: black;
+}
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: 'ArcadeClassic Regular';
+  word-spacing: 6px;
+}
+#range {
+  float: right;
+  margin-top: 0;
+  font-size: 20px;
+}
+.guess {
+  text-align: center;
+  font-size: 50px;
+  word-spacing: 3px;
+  padding-left: 220px;
+}
+#text {
+  background-color: white;
+  width: 10%;
+  height: 70px;
+  line-height: 50px;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+  font-size: 50px;
+  vertical-align: center;
+}
+#firstline {
+  background-color: white;
+  width: 45%;
+  height: 5px;
+  margin: auto;
+}
+#secondline {
+  background-color: white;
+  width: 45%;
+  height: 5px;
+  margin: auto;
+}
+.center {
+  display: flex;
+  width: 100%;
+  height: 150px;
+}
+.box2 {
+  display: flex;
+  height: 150px;
+  width: 100%;
+}
+.scoreboard {
+  width: 50%;
+  margin: auto;
+  height: 140px;
+  padding-left: 50px;
+  font-family: 'ArcadeClassic Regular';
+  font-size: 25px;
+  word-spacing: 6px;
+}
+.display {
+  width: 50%;
+  margin: auto;
+  height: 140px;
+  text-align: center;
+  padding-left: 300px;
+}
+input {
+  margin-bottom: 25px;
+  width: 150px;
+  height: 65px;
+  background: transparent;
+  border: 3px solid white;
+  font-size: 30px;
+}
+.button .check {
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  border: 3px solid white;
+}
+.check:hover,
+.again:hover {
+  background-color: black;
+  color: white;
+}
+.correct {
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+.again {
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  border: 3px solid white;
+}
+.labellast {
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: yellow;
+  margin-top: 50px;
+}
